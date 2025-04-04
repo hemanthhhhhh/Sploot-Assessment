@@ -1,4 +1,3 @@
-import React from 'react';
 import useFormHandler from '../custom-hooks/useAuth';
 
 const AddTask = () => {

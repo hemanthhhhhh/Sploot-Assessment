@@ -1,4 +1,3 @@
-import React from "react";
 import useTaskList from "../custom-hooks/useTaskList";
 
 const TaskList = () => {

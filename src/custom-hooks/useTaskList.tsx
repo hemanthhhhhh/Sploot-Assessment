@@ -19,8 +19,8 @@ const useTaskList = () => {
     error,
     filter,
     searchQuery,
-    setFilter: (value) => dispatch(setFilter(value)),
-    setSearchQuery: (value) => dispatch(setSearchQuery(value)),
+    setFilter: (value: string) => dispatch(setFilter(value)),
+    setSearchQuery: (value: string) => dispatch(setSearchQuery(value)),
   };
 };
 
